@@ -357,7 +357,7 @@ footer .copyright{
         grid-template-columns: repeat(2,1fr);
     }
     section.project{
-        padding-bottom: 4rem;
+        padding-bottom: 1rem;
     }
     .mobile-nav{
         width: 50%;
@@ -420,5 +420,11 @@ footer .copyright{
     }
     .ham-nav .hamberger{
         padding-left: 0;
+    }
+    section.project .card-wrapper .card{
+        flex-direction: column;
+    }
+    section.project .card-wrapper .card .img-wrapper img{
+        border-bottom: 1px solid var(--ternary);
     }
 }
