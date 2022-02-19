@@ -44,7 +44,7 @@
     background: var(--dark);
     width: 50%;
     height: 100vh;
-    padding: 3rem;
+    padding: 2.5rem;
     padding-top: 2rem;
     transition: all 0.8s ease-in-out;
 }
