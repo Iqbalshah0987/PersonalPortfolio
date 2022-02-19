@@ -412,4 +412,10 @@ footer .copyright{
     .mobile-nav{
         width: 50%;
     }
+    .site-main-wrapper .mobile-nav .img-2{
+        width: 100%;
+    }
+    .mobile-nav ul li a{
+        font-size: 1.5rem;
+    }
 }
