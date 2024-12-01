@@ -48,10 +48,11 @@ header nav .branding{
 }
 .hero .left img{
     width: 400px;
+    border-radius: 47%;
 }
 .hero .right{
     color: var(--pure);
-    margin-top: -9rem;
+    /* margin-top: -9rem; */
 }
 .hero .right h6{
     font-size: 1.6rem;
@@ -143,7 +144,7 @@ section.services{
 }
 section.services .card-wrapper{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 5.5rem;
 }
